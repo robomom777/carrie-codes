@@ -1,0 +1,16 @@
+body {background-color: lightgrey; margin: auto; padding: auto;}
+
+main {
+  max-width: 800px;
+  margin: auto;
+}
+
+#image { height: auto; max-width: 100%; display: flex; display: block;}
+
+a {text-decoration: none;}
+
+h1  {justify-content: center;}
+
+figcaption {font-family: 'Open Sans', sans-serif; font-size: 14px; justify-text: center;}
+
+
