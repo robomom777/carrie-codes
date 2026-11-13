@@ -1,0 +1,29 @@
+#navbar {position: fixed;
+top: 0;
+left: 0;
+width:280px;
+height: 100%;
+border-right: 2px solid #333333; background-color: #FFF8E7;}
+
+@media (max-width: 768px) {
+
+  #navbar {
+    position: relative; width: 100%; 
+    height: auto; border-right: none;
+    border-bottom: 2px solid #333333;} 
+}
+
+.main-section {}
+
+header {font-family: "Open Sans", san-seirf; font-size: 12px;}
+
+body {background-color: #FFFDD0; }
+
+.nav-link { display: block; 
+padding: 12px 24px; border-top: 1px solid #333333;
+  text-decoration: none; color: #333333; transition: background-color 0.2s ease;}
+
+.nav-link:hover {background-color:#E6DFC5; color: #000000;}
+
+#main-doc {margin-left: 0;
+padding: 20px;}

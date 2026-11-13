@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./styles.css">
+    <title>Technical Documentation Page</title>
+  </head>
+
+  <body>
+    <nav id="navbar">
+      <header>
+        <h1>JS Documentation</h1>
+      </header>
+
+      <a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a>
+      <a class="nav-link" href="#Constants">Constants</a>
+      <a class="nav-link" href="#Data_types">Data types</a>
+      <a class="nav-link" href="#Declaring_variables">Declaring variables</a>
+      <a class="nav-link" href="#Variable_scope">Variable scope</a>
+    </nav>
+
+    <main id="main-doc">
+
+      <section class="main-section" id="JavaScript_and_Java">
+        <header>JavaScript and Java</header>
+        <p>JavaScript is a versatile programming language primarily used to create dynamic and interactive web applications. Below is a concise guide to help you get started with JavaScript.</p>
+        <p>JavaScript supports both client-side and server-side development, making it a full-stack tool.</p>
+        <code></code>
+        <ul>
+          <li>Keep your code modular by using functions and external files.</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Constants">
+        <header>Constants</header>
+        <p>In JavaScript, a constant is a variable declared with the const keyword whose value cannot be reassigned after initialization.</p>
+        <p>This means you must assign a value at the time of declaration, and any attempt to reassign it later will throw a TypeError.</p>
+        <code></code>
+        <ul>
+          <li>For example, const PI = 3.14; is valid, but PI = 5; will fail. const variables have block scope (similar to let) and cannot be redeclared.</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Data_types">
+        <header>Data types</header>
+        <p>JavaScript data types define the kind of values a variable can hold and how those values behave in code. They are broadly divided into primitive and non-primitive types. Primitive types store single, immutable values directly in memory and include Number.</p>
+        <p>These types are fundamental and cannot be changed after creation.</p>
+        <code></code>
+        <ul>
+          <li>Non-primitive types are objects that can hold complex or multiple values.</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Declaring_variables">
+        <header>Declaring variables</header>
+        <p>JavaScript variables are containers for storing data values, and they can be declared using let, const, or the older var keyword.</p>
+        <p>The modern best practice is to use let for variables whose values can change and const for variables that should remain constant, though objects can still be mutated.</p>
+        <code></code>
+        <ul>
+          <li>When naming variables, JavaScript rules require that names start with a letter, underscore (_), or dollar sign ($), and they are case-sensitive.</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="Variable_scope">
+        <header>Variable scope</header>
+        <p>JavaScript variable scope defines where in the code a variable can be accessed and how long it remains available during execution.</p>
+        <p>Global scope: Variables declared outside any function or block (with var, let, or const) are accessible anywhere in the script, both inside and outside functions.</p>
+        <code></code>
+        <ul>
+          <li>Function (local) scope: Variables declared inside a function with var are accessible only within that function, and let/const in a function are also limited to that function's block.</li>
+        </ul>
+      </section>
+
+    </main>
+  </body>
+</html>
